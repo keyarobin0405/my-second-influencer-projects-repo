@@ -1,4 +1,12 @@
+
+.body {
+    margin: 20px;
+}
 /*navbar style*/
+.head{
+    font-size: larger;
+
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -27,5 +35,30 @@
 .logo-style {
    margin-top: 80px;
    display: flex;
-   justify-content: space-around;
+   justify-content:space-evenly;
 } 
+/*section and artical */
+.popular{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+
+} 
+.popular-style{
+   border: 1px solid wheat;
+   gap: 20px;
+   border-radius: 8px;
+   padding: 30px;
+   text-align: justify;
+  
+} 
+/*button style*/
+.btn-style{
+   background-color: darkgoldenrod;
+   color: aliceblue;
+   gap: 20px;
+} 
+.design {
+    margin-top: 30px;
+    display: flex;
+   gap: 100px;
+}
