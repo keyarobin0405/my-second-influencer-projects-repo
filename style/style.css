@@ -8,6 +8,12 @@
     text-decoration: none;
    margin: 20px;
 } 
+.influencer-style{
+    display: flex;
+    justify-content: space-between;
+    margin-top:100px ;
+    text-align: left;
+} 
 
 .influencer-img {
     background-repeat: no-repeat;
@@ -17,4 +23,9 @@
 .image-st {
     float: right;
 } 
-
+/*main section-style*/
+.logo-style {
+   margin-top: 80px;
+   display: flex;
+   justify-content: space-around;
+} 
