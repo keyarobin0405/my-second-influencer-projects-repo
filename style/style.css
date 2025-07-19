@@ -1,0 +1,20 @@
+/*navbar style*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+} 
+.nav-link{
+    list-style: none;
+    text-decoration: none;
+   margin: 20px;
+} 
+
+.influencer-img {
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;
+} 
+.image-st {
+    float: right;
+} 
+
